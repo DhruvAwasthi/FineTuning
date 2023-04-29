@@ -48,4 +48,16 @@ line into your shell initialization script or running it int eh command
 line before the fine-tuning command:
 > export OPENAI_API_KEY="<OPENAI_API_KEY>"
 
+### Prepare training data:
+[This](TRAINING%20DATA.md) document explains all the steps needed to prepare your training  
+data for fine-tuning GPT-3 along with the best practices and specific  
+guidelines.
 
+
+### Create a fine-tuned model
+[This](CREATE%20FINE-TUNED%20MODEL.md) document explains all the steps needed to create  
+your fine-tuned model and start the training.   
+
+### Use a fine-tuned model
+[This](USE%20FINE-TUNED%20MODEL.md) document explains how to use the fine-tuned model  
+for inference.
