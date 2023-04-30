@@ -1,4 +1,9 @@
 # Fine-tuning GPT-3
+This document explains the complete process of fine-tuning of GPT-3  
+models. It also explains how to generate the dataset in required format  
+for tine-tuning GPT-3 models, and also how to analyze the fine-tuned  
+model and its various metrics.  
+<br>
 GPT-3 has been pre-trained on a vast amount of text from the open  
 internet. When given a prompt with just a few examples, it can often  
 intuit what task you are trying to perform and generate a plausible  
@@ -52,7 +57,6 @@ line before the fine-tuning command:
 [This](TRAINING%20DATA.md) document explains all the steps needed to prepare your training  
 data for fine-tuning GPT-3 along with the best practices and specific  
 guidelines.
-
 
 ### Create a fine-tuned model
 [This](CREATE%20FINE-TUNED%20MODEL.md) document explains all the steps needed to create  
